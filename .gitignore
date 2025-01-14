@@ -1,0 +1,30 @@
+# .gitignore for the root directory
+
+# Node.js dependencies (Backend)
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+
+# Environment variables
+.env
+
+# Backend build files (if any, like temporary directories)
+/build
+/dist
+
+# Vite build output (this is for frontend, but it could also be present in the root)
+client/dist/
+
+# OS-specific files (macOS, Windows, etc.)
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# IDE/Editor specific files (if you use a code editor like VSCode)
+.vscode/
+.idea/
+
+# Optional: if you want to ignore global configuration files
+package-lock.json   # Optional, if you want to exclude lock files (not recommended)
+yarn.lock           # Optional, if you're using yarn and want to exclude lock files
